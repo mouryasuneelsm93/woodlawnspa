@@ -1,0 +1,440 @@
+#logo {
+
+    width:100%;
+ height:18vh;
+  
+  transition: 0.9s;
+  background-size: cover;
+  transition: all 0.6s;
+}
+.nav-on-scroll
+{
+  
+  transition: all 1s;
+   
+
+}
+
+ .active-a
+{
+  color:#2ea3f2!important;
+  
+}
+.nav-link
+{
+  color: #666;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Asul',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 600;
+}
+
+
+.nav-on-scroll.compressed
+{
+  max-height: 20vh;
+  
+  
+}
+#logo.compressed
+{
+  
+  height: 16vh;
+  width:80%;
+
+ 
+}
+
+
+
+
+/*for lg*/
+@media(min-width: 1024px){
+  .s1{
+    margin-top: 10% !important;
+  }
+}
+
+.s1{
+    margin-top: 34% ;
+  }
+.colr
+{
+  
+  text-align: center;
+  width:100%;
+ 
+}
+#s6
+{
+  width:100%;
+  height:auto;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-color: #222222 !important;;
+}
+.aa
+{
+  color: #4e943c;
+  font-size: 20px;
+      font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+
+}
+.pp
+{
+  color:white;
+  font-size: 15px;
+}
+.pps
+{
+  color:white;
+  font-size: 15px;
+  
+
+}
+.ppt
+{
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.pp:hover
+{
+  font-size: 26px;
+  text-decoration: none;
+  color:white;
+}
+
+.s
+{
+  color:white;
+  font-size: 15px;
+}
+.s2
+{
+  font-size: 40px;
+  color: white;
+}
+#s7
+{
+  width:100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  
+  background-color: black;
+}
+
+
+.f2
+{
+  width:100%;
+  background-position: top center;
+  background-blend-mode: color-burn;
+  background-image: url(https://woodlawnservices.com/wp-content/uploads/2018/04/woodlawn-mowing-service.jpg);
+  height:auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+   padding-left: 0px;
+  padding-right: 0px;
+}
+.contain
+{
+  width:100%;
+  height:auto;
+ 
+  background-color: rgba(0,0,0,0.48) !important;
+  padding-top: 15%;
+   
+   color:white;
+   font-weight: bold;
+
+}
+.set
+{
+	padding-top: 20%;
+	font-size: 80px;
+}
+h1
+{
+	    font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+	    font-size: 50px;
+		text-align: center;
+		color: #fff !important;
+		padding-bottom: 10px;
+		color: #333;
+		font-weight: 500;
+		line-height: 1em;
+		height:200px;
+	}	
+
+.curve
+{
+	width:100%;
+	background-size: 100% 74px;
+	bottom: 0;
+	height: 74px;
+	z-index: 10;
+}
+#s2
+{
+	width:100%;
+	height:auto;
+	background-color: #fff;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+p
+{
+	color:#666;
+	font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	font-weight: 500;
+	line-height: 1.7em;
+	font-size:45px;
+
+}
+.c1
+{
+	text-align: center;
+	padding-top: 20%;
+	padding-bottom: 20%;
+
+	width:100%;
+	height:250px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('https://woodlawnservices.com/wp-content/uploads/2018/04/Trimming-service.jpg');
+	background-blend-mode: overlay;
+	background-color: rgba(0,0,0,0.58);
+}
+.c2
+{
+
+text-align: center;
+	padding-top: 20%;
+	padding-bottom: 20%;
+
+width:100%;
+	height:250px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+background-blend-mode: overlay;
+background-image: url(https://woodlawnservices.com/wp-content/uploads/2018/04/lawn-care-service.jpg);
+background-color: rgba(0,0,0,0.7);
+
+}
+
+
+.c3
+{
+	text-align: center;
+	padding-top: 20%;
+	padding-bottom: 20%;
+
+	width:100%;
+	height:250px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+background-image: url(https://woodlawnservices.com/wp-content/uploads/2018/04/Backyard.jpg);
+background-color: rgba(0,0,0,0.7);
+}
+.p1
+{
+	padding-right: 0px;
+	padding-left: 0px;
+
+}
+.r1
+{
+	width:100%;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+h3
+{
+	padding-bottom: 10px;
+color: #333;
+font-weight: 500;
+line-height: 1em;
+    font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+font-size: 20px;
+}
+#s3
+{
+	width:100%;
+	background-color: #f3f3f3 !important;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+h6
+{
+	font-size: 50px;
+    font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+    padding-bottom: 10px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1em;
+
+}
+h4
+{
+	font-size: 18px;
+	font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+	padding-bottom: 10px;
+	color: #333;
+	font-weight: 500;
+	line-height: 1em;
+}
+#s4
+{
+	width:100%;
+	
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.b
+{
+	background-color: #4e943c;
+	height:350px;
+}
+.b1
+{
+	height: 350px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+background-blend-mode: overlay;
+background-image: url(https://woodlawnservices.com/wp-content/uploads/2018/04/leaf-removal-lawn-service.jpg);
+background-color: rgba(78,148,60,0.75);
+padding-top: 124px !important;
+padding-bottom: 124px !important;
+}
+
+#s16
+{
+	width:100%;
+	
+}
+
+.f3
+{
+	position: relative;
+	width:100%;
+	background-size: cover;
+	padding-left: 0px;
+	padding-right: 0px;
+  
+ 
+}
+.f1
+{
+	position: absolute;
+  width:100%;
+  height: 150px;
+  transform: rotateX(180deg);
+  background-blend-mode: color-burn;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxNTBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9InJnYmEoMTIsMTEzLDE5NSwwLjcpIj48cGF0aCBkPSJNMCAxNDBoMTI4MEM1NzMuMDggMTQwIDAgMCAwIDB6Ii8+PC9nPjwvc3ZnPg==);
+ 
+  background-size: cover;
+ 
+}
+.get
+{
+	font-size: 30px;
+	font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+	padding-bottom: 10px;
+	color: #333;
+	font-weight: 500;
+	line-height: 1em;
+
+}
+.c4
+{
+	position: relative;
+	text-align: center;
+	padding-top: 40%;
+	padding-bottom: 25%;
+	width:100%;
+	height:100%;
+	z-index: -9;
+	background-size: cover;
+	background-repeat: no-repeat;
+	    
+    background-image: url(https://woodlawnservices.com/wp-content/uploads/2018/04/Mulched-lawn.jpg);
+    background-color: rgba(0,0,0,.64);
+}
+
+.c5
+{
+	text-align: center;
+	top:0%;
+	z-index: -9;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: relative;
+	width:100%;
+	height:auto;
+	padding-top: 8%;
+	
+}
+
+.in
+{
+background-color: #eee;
+  
+}
+.bt
+{
+
+  background-color:transparent;
+  border-color:rgba(0,0,0,.8); ;
+  color:black;
+  font-size: 20px;
+font-weight: 500;
+  
+  padding: 10px;
+  width:140px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.bt span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bt span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.bt:hover span {
+  padding-right: 20px;
+}
+
+.bt:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+.input
+{
+	background-color: #eee;
+border-radius: 0px;
+	height: 50px;
+
+}

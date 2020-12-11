@@ -1,0 +1,387 @@
+
+.nav-text
+{
+	color:white;
+	font-size: 20px;
+	font-weight: bold;
+	padding:20px;
+	z-index: 9;
+}
+
+.c
+{
+	height:46px;
+	width:60px;
+	border-radius: 0px;
+
+}
+.c1
+{
+	border-radius: 0px;
+}
+.navbar-toggler-icon
+{
+  width:80px;
+  height: 60px;
+  color:grey;
+  
+
+}
+.mains
+{
+	padding-top: 180px;
+}
+.container-fluid
+{
+	
+	
+	
+	background-size: cover;
+
+	background-color: rgba(0,0,0,.7);
+	
+	width:100%;
+	height:auto;
+	background-size: cover;
+	padding-left: 0!important;
+	padding-right: 0!important;
+}
+.row
+{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.navbar-navs
+{
+	background-color:rgba(0,0,0,.7);
+	color: white;
+
+	width:100%;
+
+}
+.jumbo
+{
+	width:100%;
+}
+
+.logo
+{
+	
+	padding-top: 10%;
+	
+	height: 90%;
+	width:90%;
+}
+
+.logos
+{
+	padding-top: 15%;
+	
+	width:90%;
+	height: 90%;
+}
+h1
+{
+	color:white;
+	font-size: 50px;
+}
+p
+{
+	color:white;
+	font-size: 25px;
+}
+#s1
+{
+	
+	width:100%;
+	height:auto;
+	background-image: url('2.jpg');
+	background-size: cover;
+	background-repeat:no-repeat;
+
+}
+#s2
+{
+	width:100%;
+	height:auto;
+	padding-top: 20px;
+	background-color: #eee;
+}
+h2
+{
+	font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+	font-size:25px;
+	color: #333;
+	font-weight: 500;
+line-height: 1em;
+}
+.logoimg
+{
+	height:200px;
+	width:200px;
+}
+#s3
+{
+	width:100%;
+	height:auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	 background-color: rgba(255, 99, 71, 0.5);
+}
+h4
+{
+	font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+	font-size:45px;
+	color: #333;
+	font-weight: 500;
+line-height: 1em;
+
+}
+.bt
+{
+
+
+}
+.bt:hover
+{
+	width:150px;
+
+
+}
+
+.button {
+  border-radius: 4px;
+  background-color: green;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#s4
+{
+	width:100%;
+	height:auto;
+	background-color:#f3f3f3;
+
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+h3
+{
+	font-size: 45px;
+	color: #0c71c3 !important;
+
+	font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+
+}
+#s5
+{
+	width:100%;
+	height:auto;
+	background-image: url('https://woodlawnservices.com/wp-content/uploads/2018/04/woodlawn-garden-care.jpg');
+	background-size: cover;
+	
+
+	
+	
+}
+.contain
+{
+	width:100%;
+	background-size: cover;
+	background-color: rgba(0,0,0,.75);
+
+	
+}
+.low
+{
+	color: white;
+	font-size: 20px;
+
+}
+.redt
+{
+	color: red;
+	font-size: 20px;
+}
+.get
+{
+	font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 30px;
+	color:white;
+}
+.lowt
+{
+	font-size: 45px;
+}
+#s6
+{
+	width:100%;
+	height:auto;
+	padding-top: 60px;
+	padding-bottom: 80px;
+	background-color: #222222 !important;;
+}
+h5
+{
+	font-size: 25px;
+	color: #4e943c !important;
+
+	font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+}
+.pp
+{
+	color:white;
+	font-size: 15px;
+}
+.pps
+{
+	color:white;
+	font-size: 15px;
+	background-size: cover;
+
+}
+.pp:hover
+{
+	font-size: 26px;
+	text-decoration: none;
+	color:white;
+}
+.s
+{
+	color:white;
+	font-size: 15px;
+}
+.ppt
+{
+	color:white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.s2
+{
+	font-size: 40px;
+	color: white;
+}
+#s7
+{
+	width:100%;
+	height:auto;
+	padding-top:30px;
+	padding-bottom:30px;
+	background-color: black;
+}
+#s8
+{
+	padding-top: 50px;
+	width:100%;
+	height:auto;
+	padding-bottom: 50px;
+	background-color: red;
+}
+.imag
+{
+
+background-size: 100% 100px;
+bottom: 0;
+height: 100px;
+z-index: 10;
+transform: rotateY(180deg);
+width:100%;
+
+}
+.ppst
+{
+
+	color:white;
+	font-size: 15px;
+	width:50%;
+	text-align: center;
+	margin-left:25%;
+	margin-right: 25%;
+}
+.imags
+{
+width:100%;
+background-size: 100% 180px;
+bottom: 0;
+height: 180px;
+z-index: 10;
+transform: rotateY(180deg);
+}
+.bt
+{
+
+  background-color:transparent;
+  border-color: #ffffff;
+  color:#ffffff;
+  font-size: 20px;
+font-weight: 500;
+  
+  padding: 10px;
+  width:140px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.bt span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bt span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.bt:hover span {
+  padding-right: 20px;
+}
+
+.bt:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+a:hover
+{
+	text-decoration: none;
+
+
+}

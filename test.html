@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nav</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.stuck .sticky-top {
+    background-color: #222;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+html,body {
+    height:100%;
+    padding-top:56px; /*height of fixed navbar*/
+}
+
+.navbar { 
+  -webkit-transition:padding 0.2s ease;
+  -moz-transition:padding 0.2s ease; 
+  -o-transition:padding 0.2s ease;        
+  transition:padding 0.2s ease;  
+}
+
+.affix {
+  padding-top: 0.2em !important;
+  padding-bottom: 0.2em !important;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;  
+  -o-transition:padding 0.2s linear;         
+  transition:padding 0.2s linear;  
+}
+
+section {
+    min-height:calc(100% - 70px);
+}
+
+</style>
+<script>
+	var toggleAffix = function(affixElement, scrollElement, wrapper) {
+    var height = affixElement.outerHeight(),
+        top = wrapper.offset().top;
+
+    if (scrollElement.scrollTop() >= top){
+        wrapper.height(height);
+        affixElement.addClass("affix");
+    }
+    else {
+        affixElement.removeClass("affix");
+        wrapper.height('auto');
+    }
+};
+
+/* use toggleAffix on any data-toggle="affix" elements */
+$('[data-toggle="affix"]').each(function() {
+    var ele = $(this),
+        wrapper = $('<div></div>');
+
+    ele.before(wrapper);
+    $(window).on('scroll resize', function() {
+        toggleAffix(ele, $(this), wrapper);
+    });
+
+    // init
+    toggleAffix(ele, $(window), wrapper);
+});
+$(window).scroll(function() {
+  /* affix after scrolling 100px */
+  if ($(document).scrollTop() > 100) {
+    $('.navbar').addClass('affix');
+  } else {
+    $('.navbar').removeClass('affix');
+  }
+});
+	</script>
+</head>
+<body>
+	<div class="navbar navbar-dark bg-dark fixed-top navbar-expand-sm py-3" data-toggle="affix">
+      <a href="#" class="navbar-brand">Brand</a>
+      <a class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">☰</a>
+      <ul class="nav navbar-nav">
+          <li class="nav-item"><a href="#" class="nav-link"></a>
+          </li>
+      </ul>
+       <li class="nav-item"><a href="#" class="nav-link">..</a>
+          </li>
+           <li class="nav-item"><a href="#" class="nav-link">..</a>
+          </li>
+           <li class="nav-item"><a href="#" class="nav-link">..</a>
+          </li>
+</div>
+
+<div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
+  <p><b>This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.</b></p>
+  <p>Scroll down this frame to see the effect!</p>
+  <p>Scroll to the top to remove the effect.</p>
+  <p><b>Note:</b> We have also made the navbar responsive, resize the browser window to see the effect.</p>
+  <p>Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
+  <p><b>This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.</b></p>
+  <p>Scroll down this frame to see the effect!</p>
+  <p>Scroll to the top to remove the effect.</p>
+  <p><b>Note:</b> We have also made the navbar responsive, resize the browser window to see the effect.</p>
+  <p>Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
+  <p><b>This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.</b></p>
+  <p>Scroll down this frame to see the effect!</p>
+  <p>Scroll to the top to remove the effect.</p>
+  <p><b>Note:</b> We have also made the navbar responsive, resize the browser window to see the effect.</p>
+  <p>Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("logo").style.width = "250px";
+  } else {
+    document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("logo").style.width = "400px";
+  }
+}
+</script>
+</body>
+</html>

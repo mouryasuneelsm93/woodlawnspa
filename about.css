@@ -1,0 +1,315 @@
+#logo {
+
+    width:100%;
+ height:18vh;
+  
+  transition: 0.9s;
+  background-size: cover;
+  transition: all 0.6s;
+}
+.nav-on-scroll
+{
+  
+  transition: all 1s;
+   
+
+}
+
+ .active-a
+{
+  color:#2ea3f2!important;
+  
+}
+.nav-link
+{
+  color: #666;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Asul',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 600;
+}
+
+
+.nav-on-scroll.compressed
+{
+  max-height: 20vh;
+  
+  
+}
+#logo.compressed
+{
+  
+  height: 16vh;
+  width:80%;
+
+ 
+}
+
+
+@media(min-width: 1024px){
+  #s1{
+    margin-top: 10% !important;
+  }
+}
+
+
+.colr
+{
+  
+  text-align: center;
+  width:100%;
+ 
+}
+/*--------------------------------------header close----------------*/
+#s1
+{
+  width:100%;
+  background-color: #666;
+  margin-top: 30% ;
+}
+.container-fluid
+{
+  width:100%;
+  background-image: url('abouti.jpg');
+  height:auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+   padding-left: 0px;
+  padding-right: 0px;
+}
+.contain
+{
+  width:100%;
+  height:auto;
+ 
+  background-color: rgba(0,0,0,.3);
+  padding-top: 15%;
+
+}
+h1
+{
+  font-size: 80px;
+  color: #fff !important;
+  font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+  
+}
+.imag
+{
+  background-size: 100% 100px;
+bottom: 0;
+height: 100px;
+z-index: 1;
+transform: rotateY(180deg);
+width:100%;
+}
+.a1
+{
+  padding-bottom: 100px;
+}
+#s2 {
+
+    padding: 54px;
+    background-image: linear-gradient(180deg,#4e943c 0%,#ffffff 100%) !important;
+}
+.imags
+{
+  max-width: 100%;
+  height: auto;
+}
+h2
+{   
+  text-align: center;
+      font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+    font-size: 36px;
+    padding-bottom: 10px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1em;
+
+}
+.container
+{
+  padding: 27px 0;
+}
+#s3
+{
+  padding: 54px 0;
+  background-color: #fff;
+}
+h3
+{
+      font-size: 50px;
+    text-align: center;
+    font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+    padding-bottom: 10px;
+color: #333;
+font-weight: 500;
+line-height: 1em;
+}
+h4
+{
+      font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+      padding-bottom: 10px;
+color: #333;
+font-weight: 500;
+line-height: 1em;
+
+}
+#s3
+{
+  background-color: #fff;
+}
+#s4
+{
+  background-color: #fff;
+  padding-bottom: 100px;
+}
+h5
+{
+   font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+    font-size: 26px;
+    padding-bottom: 10px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+#s15
+{
+  background-color:#4e943c !important;
+}
+
+.imgs
+{
+  width:100%;
+  background-size: 100% 50px;
+top: 0;
+height: 50px;
+z-index: 10;
+}
+h6
+{
+  text-align: center;
+font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 500;
+    line-height: 1em;
+  }
+
+.bt
+{
+
+  background-color:transparent;
+  border-color: #ffffff;
+  color:#ffffff;
+  font-size: 20px;
+font-weight: 500;
+  
+  padding: 10px;
+  width:140px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.bt span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bt span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.bt:hover span {
+  padding-right: 20px;
+}
+
+.bt:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#s6
+{
+  width:100%;
+  height:auto;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-color: #222222 !important;
+}
+.aa
+{
+  color: #4e943c;
+  font-size: 20px;
+      font-family: 'Della Respira',Georgia,"Times New Roman",serif;
+
+}
+.pp
+{
+  color:white;
+  font-size: 15px;
+}
+.pps
+{
+  color:white;
+  font-size: 15px;
+  background-size: cover;
+
+}
+.ppt
+{
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.pp:hover
+{
+  font-size: 26px;
+  text-decoration: none;
+  color:white;
+}
+
+.s
+{
+  color:white;
+  font-size: 15px;
+}
+.s2
+{
+  font-size: 40px;
+  color: white;
+}
+#s7
+{
+  width:100%;
+  
+  
+  background-color: black;
+}
+.tar
+{
+  font-size: 40px;
+  color:#2ea3f2;
+}
+.che
+{
+  font-size: 30px;
+  color:#2ea3f2;
+  padding: 10px;
+}
+
+ @media (min-width: 330px) and (max-width: 650)
+ {
+  .s12 {
+    padding-top: 70%;
+  }
+ }
